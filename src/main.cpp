@@ -14,10 +14,10 @@ int main(__attribute__((unused)) int argc,__attribute__((unused)) char const *ar
   }
   for (auto row = rows.begin(); row != rows.end(); row++) {
     auto col = *row;
-    std::cout << '\n';
     for (auto el = col.begin(); el != col.end(); el++) {
       std::cout << *el << ' ';
     }
+    std::cout << '\n';
   }
   return 0;
 }
