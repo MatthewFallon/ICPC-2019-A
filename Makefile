@@ -3,7 +3,7 @@ default: test
 
 # C++ Build
 CXX      := g++
-CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
+CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror -g -O2 -std=gnu++17
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
 
 # Source Files
